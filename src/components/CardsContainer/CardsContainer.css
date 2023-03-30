@@ -1,0 +1,45 @@
+.section-grupos {
+  padding-top: 80px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.section-grupos h1 {
+  z-index: 1000;
+  font-size: 30px;
+}
+.section-grupos img {
+  position: absolute;
+  width: 600px;
+  opacity: 0.7;
+}
+.card-container {
+  display: flex;
+  max-width: 1100px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 70px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-grupos {
+  z-index: 1000;
+  font-size: 30px;
+}
+
+/* Estilos para pantallas pequeñas */
+
+@media screen and (max-width: 767px) {
+  .section-grupos h1 {
+    text-align: center;
+  }
+  .section-grupos img {
+    display: none;
+    /* width: 90%; */
+  }
+}

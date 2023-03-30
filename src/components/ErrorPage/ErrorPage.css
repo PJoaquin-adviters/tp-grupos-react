@@ -1,0 +1,17 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+
+.img-error {
+  width: 250px;
+}
+
+.titulo-error {
+  color: var(--color-terciario);
+  font-size: 40px;
+}

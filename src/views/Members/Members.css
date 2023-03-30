@@ -1,0 +1,16 @@
+.members-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 80px;
+}
+.members-section h1 {
+  font-size: 30px;
+}
+.members-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

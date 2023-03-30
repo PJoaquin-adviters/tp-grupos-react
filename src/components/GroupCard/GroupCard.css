@@ -1,0 +1,25 @@
+.card {
+  background-color: rgba(22, 113, 231, 0.897);
+  box-shadow: 30px 20px 100px 30px rgba(63, 102, 211, 0.164);
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px 20px 40px 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  z-index: 10000;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.btn-rosa {
+  background-color: var(--color-terciario);
+}
